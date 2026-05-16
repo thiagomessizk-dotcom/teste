@@ -1,159 +1,166 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EducaMais - Educação e Desenvolvimento Pessoal</title>
+    <title>SuitCake - Educação e Desenvolvimento Pessoal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar Fixa -->
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <span class="logo-icon">📚</span>
-                <span class="logo-text">EducaMais</span>
+                <img src="imagem/WhatsApp Image 2026-05-11 at 21.09.48.jpeg" alt="SuitCake Logo" class="logo-image">
+                <div class="logo-text">
+                    <span class="site-name">SuitCake</span>
+                    <span class="site-subtitle">Educação Premium</span>
+                </div>
             </div>
             <div class="navbar-menu">
                 <a href="index.html" class="nav-link active">Home</a>
                 <a href="#temas" class="nav-link">Temas</a>
                 <a href="#sobre" class="nav-link">Sobre</a>
             </div>
-            <div class="hamburger">
+            <button class="hamburger" type="button" aria-label="Abrir menu">
                 <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Evolua sua vida pessoal e profissional</h1>
-            <p class="hero-subtitle">Aprenda conteúdos práticos e aprofundados para transformar seu futuro</p>
-            <a href="#temas" class="btn btn-primary btn-large">Comece agora</a>
-        </div>
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-        </div>
-    </section>
-
-    <!-- Seção de Temas -->
-    <section id="temas" class="temas">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Temas Principais</h2>
-                <p class="section-subtitle">Escolha um tema e comece a aprender</p>
-            </div>
-
-            <div class="temas-grid">
-                <!-- Card Educação Financeira -->
-                <div class="tema-card">
-                    <div class="card-icon">💰</div>
-                    <h3 class="card-title">Educação Financeira</h3>
-                    <p class="card-description">Aprenda a gerenciar seu dinheiro, gerar renda passiva e criar uma mentalidade financeira saudável.</p>
-                    <div class="card-features">
-                        <span class="feature">Renda Ativa & Passiva</span>
-                        <span class="feature">Controle de Gastos</span>
-                        <span class="feature">Investimentos</span>
-                    </div>
-                    <a href="educacao-financeira.html" class="btn btn-secondary">Acessar Conteúdo</a>
+    <main>
+        <section class="hero">
+            <div class="hero-copy fade-item">
+                <div class="hero-logo">
+                    <img src="imagem/WhatsApp Image 2026-05-11 at 21.09.48.jpeg" alt="SuitCake" class="hero-logo-image">
                 </div>
-
-                <!-- Card Comunicação -->
-                <div class="tema-card">
-                    <div class="card-icon">🎤</div>
-                    <h3 class="card-title">Comunicação e Oratória</h3>
-                    <p class="card-description">Desenvolva habilidades de fala, persuasão e presença para se destacar em qualquer ambiente.</p>
-                    <div class="card-features">
-                        <span class="feature">Falar com Clareza</span>
-                        <span class="feature">Persuasão</span>
-                        <span class="feature">Presença Pública</span>
-                    </div>
-                    <a href="comunicacao.html" class="btn btn-secondary">Acessar Conteúdo</a>
-                </div>
-
-                <!-- Card Mercado de Trabalho -->
-                <div class="tema-card">
-                    <div class="card-icon">💼</div>
-                    <h3 class="card-title">Mercado de Trabalho</h3>
-                    <p class="card-description">Domine as habilidades necessárias para conseguir a oportunidade profissional que você deseja.</p>
-                    <div class="card-features">
-                        <span class="feature">Currículo</span>
-                        <span class="feature">Entrevistas</span>
-                        <span class="feature">Primeiro Emprego</span>
-                    </div>
-                    <a href="mercado-trabalho.html" class="btn btn-secondary">Acessar Conteúdo</a>
-                </div>
-
-                <!-- Card Inteligência Emocional -->
-                <div class="tema-card">
-                    <div class="card-icon">🧠</div>
-                    <h3 class="card-title">Inteligência Emocional</h3>
-                    <p class="card-description">Conheça suas emoções, desenvolva disciplina e aprenda a lidar com pressão e ansiedade.</p>
-                    <div class="card-features">
-                        <span class="feature">Autoconhecimento</span>
-                        <span class="feature">Disciplina</span>
-                        <span class="feature">Controle Emocional</span>
-                    </div>
-                    <a href="inteligencia-emocional.html" class="btn btn-secondary">Acessar Conteúdo</a>
+                <h1 class="hero-title">Conhecimento e desenvolvimento para transformar o seu futuro.</h1>
+                <p class="hero-description">Aprenda com conteúdos sofisticados, organização clara e uma experiência visual que fortalece confiança e profissionalismo.</p>
+                <div class="hero-actions">
+                    <a href="#temas" class="btn btn-primary">Explorar Temas</a>
+                    <a href="#sobre" class="btn btn-secondary">Nossa Proposta</a>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="hero-visual fade-item">
+                <div class="hero-card">
+                    <span class="hero-label">Experiência premium</span>
+                    <h2>Aprendizado estruturado para gerar resultados reais.</h2>
+                    <p>Combine clareza, estratégia e práticas objetivas em um caminho pensado para quem quer evoluir com elegância.</p>
+                    <ul>
+                        <li>Conteúdo organizado em trilhas fáceis de seguir</li>
+                        <li>Conceitos explicados com precisão e destaque visual</li>
+                        <li>Mais autoridade e confiança para cada passo da sua jornada</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <!-- Seção Sobre -->
-    <section id="sobre" class="sobre">
-        <div class="container">
-            <div class="sobre-content">
-                <div class="sobre-text">
-                    <h2 class="sobre-title">Por que EducaMais?</h2>
-                    <p class="sobre-paragraph">
-                        A EducaMais foi criada com o objetivo de oferecer conteúdos práticos e aprofundados que realmente façam diferença na sua vida. Acreditamos que a educação contínua é a chave para o sucesso pessoal e profissional.
-                    </p>
-                    <p class="sobre-paragraph">
-                        Aqui você encontrará tudo o que precisa para evoluir em áreas essenciais do desenvolvimento humano, baseado em experiências reais e melhores práticas do mercado.
-                    </p>
-                    <div class="sobre-stats">
-                        <div class="stat">
-                            <span class="stat-number">4</span>
-                            <span class="stat-label">Temas Principais</span>
+        <section id="temas" class="section section-alt">
+            <div class="container">
+                <div class="section-header fade-item">
+                    <p class="section-label">Temas em destaque</p>
+                    <h2 class="section-title">Escolha o próximo passo da sua evolução.</h2>
+                    <p class="section-text">Uma seleção de temas essenciais para desenvolver postura profissional, controle financeiro e inteligência emocional com uma linguagem clara e sofisticada.</p>
+                </div>
+
+                <div class="theme-grid">
+                    <article class="theme-card fade-item">
+                        <div class="theme-icon">💎</div>
+                        <h3>Educação Financeira</h3>
+                        <p>Estruture seus recursos, cuide do fluxo de caixa e entenda como fazer o dinheiro trabalhar para você.</p>
+                        <div class="feature-list">
+                            <span class="feature">Controle de gastos</span>
+                            <span class="feature">Planejamento inteligente</span>
+                            <span class="feature">Investimentos conscientes</span>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Gratuito</span>
+                        <a href="educacao-financeira.html" class="btn btn-secondary">Acessar Conteúdo</a>
+                    </article>
+                    <article class="theme-card fade-item">
+                        <div class="theme-icon">🎓</div>
+                        <h3>Comunicação</h3>
+                        <p>Domine a clareza verbal e a presença que fazem sua mensagem ser reconhecida como estratégica e memorável.</p>
+                        <div class="feature-list">
+                            <span class="feature">Fala confiante</span>
+                            <span class="feature">Estrutura persuasiva</span>
+                            <span class="feature">Impacto corporal</span>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">∞</span>
-                            <span class="stat-label">Aprendizado</span>
+                        <a href="comunicacao.html" class="btn btn-secondary">Acessar Conteúdo</a>
+                    </article>
+                    <article class="theme-card fade-item">
+                        <div class="theme-icon">📘</div>
+                        <h3>Mercado de Trabalho</h3>
+                        <p>Prepare-se com estratégias de currículo, entrevistas e posicionamento profissional para se destacar com segurança.</p>
+                        <div class="feature-list">
+                            <span class="feature">Currículo premium</span>
+                            <span class="feature">Entrevista estratégica</span>
+                            <span class="feature">Oportunidade certa</span>
+                        </div>
+                        <a href="mercado-trabalho.html" class="btn btn-secondary">Acessar Conteúdo</a>
+                    </article>
+                    <article class="theme-card fade-item">
+                        <div class="theme-icon">🌿</div>
+                        <h3>Inteligência Emocional</h3>
+                        <p>Aprenda a gerir suas emoções com disciplina e foco, mantendo estabilidade mesmo sob pressão.</p>
+                        <div class="feature-list">
+                            <span class="feature">Autoconhecimento</span>
+                            <span class="feature">Disciplina mental</span>
+                            <span class="feature">Equilíbrio pessoal</span>
+                        </div>
+                        <a href="inteligencia-emocional.html" class="btn btn-secondary">Acessar Conteúdo</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="about-grid fade-item">
+                    <div class="about-copy">
+                        <p class="section-label">Sobre a SuitCake</p>
+                        <h2 class="section-title">Uma experiência educacional pensada para resultados reais.</h2>
+                        <p class="section-text">SuitCake combina conteúdo elegante com estrutura de leitura intuitiva para que cada visita seja mais inspiradora e produtiva. A proposta é oferecer aprendizado com credibilidade, simplicidade e sofisticação.</p>
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <h4>Clareza e foco</h4>
+                                <p>Textos e estruturas desenvolvidos para facilitar a compreensão e apoiar tomadas de decisão inteligentes.</p>
+                            </div>
+                            <div class="info-card">
+                                <h4>Design profissional</h4>
+                                <p>Layout moderno, espaçamento generoso e tipografia refinada para uma apresentação premium.</p>
+                            </div>
+                            <div class="info-card">
+                                <h4>Conteúdo com impacto</h4>
+                                <p>O material foca no essencial e apoia o desenvolvimento com passos práticos e aplicáveis.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sobre-image">
-                    <div class="image-placeholder">
-                        <div class="placeholder-content">
-                            <span class="placeholder-icon">🚀</span>
-                            <p>Transforme sua vida</p>
+                    <div class="features-bar">
+                        <div class="feature-pill">
+                            <strong>Elegância visual</strong>
+                            <span>Base minimalista, cores neutras e detalhes dourados.</span>
+                        </div>
+                        <div class="feature-pill">
+                            <strong>Experiência fluida</strong>
+                            <span>Navegação clara, animações suaves e uso profissional em desktop e mobile.</span>
+                        </div>
+                        <div class="feature-pill">
+                            <strong>Credibilidade</strong>
+                            <span>Conteúdo organizado e apoiado por boas práticas de desenvolvimento pessoal.</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>EducaMais</h4>
-                    <p>Plataforma de educação e desenvolvimento pessoal</p>
+                    <h4>SuitCake</h4>
+                    <p>Educação e desenvolvimento pessoal com foco em elegância e resultado.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Links Rápidos</h4>
+                    <h4>Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#temas">Temas</a></li>
@@ -162,12 +169,12 @@
                 </div>
                 <div class="footer-section">
                     <h4>Contato</h4>
-                    <p>Email: contato@educamais.com</p>
+                    <p>Email: contato@suitcake.com</p>
                     <p>Telefone: (11) 1234-5678</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 EducaMais. Todos os direitos reservados.</p>
+                <p>&copy; 2026 SuitCake. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
